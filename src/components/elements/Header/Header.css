@@ -1,0 +1,8 @@
+.page-header {
+  border-bottom: 5px solid #CEDC00;
+  padding: 1em;
+}
+.page-header .page-logo {
+  height: 60px;
+  width: auto;
+}

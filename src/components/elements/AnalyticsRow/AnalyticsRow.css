@@ -1,0 +1,56 @@
+.analytics-block {
+  border: 4px solid #CEDC00;
+  border-radius: 10px;
+  color: #008C95;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 1em;
+  min-height: 0;
+  padding: .5em 1em;
+  position: relative;
+  text-align: center;
+}
+
+.analytics-block p {
+  margin: 0;
+}
+
+.analytics-block--figure {
+  color: #008C95;
+  font-size: 2em;
+  font-family: "Century Gothic","AppleGothic",sans-serif;
+  font-weight: 600;
+  padding: .5em 0 .25em;
+}
+
+.analytics-block-description {
+  position: absolute;
+  bottom: 1em;
+  padding-right: 1em;
+}
+
+.analytics-block--subtitle {
+  color: #666;
+  padding: .5em;
+  text-align: center;
+}
+
+.analytics-block--subtitle p {
+  margin: 0;
+}
+
+.analytics-block--subtitle.analytics-block--subtitle--inside {
+  bottom: .5em;
+  position: absolute;
+  right: 1em;
+}
+
+@media (min-width: 768px) {
+  .analytics-block {
+    margin-bottom: 0em;
+    min-height: 12.5em;
+  }
+  .analytics-block--figure {
+    font-size: 3.75em;
+  }
+}

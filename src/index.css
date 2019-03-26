@@ -1,0 +1,53 @@
+body {
+  font-family: 'Open Sans';
+  font-size: 19px;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6, h7 {
+  color: #008C95;
+  font-family: "Century Gothic","AppleGothic",sans-serif;
+  margin-bottom: 0;
+}
+
+h1 {
+  font-size: 1.75em;
+  margin-top: 1.25em;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+h2 {
+  font-size: 1.36em;
+  margin: 1em 15px;
+}
+
+section {
+  margin: 1em 0 2em;
+}
+
+@media (min-width: 768px) {
+  .page-container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  h1 {
+    font-size: 2.42em;
+    max-width: 66%;
+  }
+  .page-container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .page-container {
+    margin: auto;
+    width: 1200px;
+  }
+}

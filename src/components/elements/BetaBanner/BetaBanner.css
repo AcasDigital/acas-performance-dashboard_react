@@ -1,0 +1,16 @@
+.page-banner {
+  border-bottom: 1px solid #cacaca;
+  color: #666;
+  font-size: 85%;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  overflow: auto;
+  width: 100%;
+}
+.beta-icon {
+  color: #fff;
+  background-color: #008C95;
+  font-weight: 600;
+  margin-right: .5em;
+  padding: .125em .5em;
+}
