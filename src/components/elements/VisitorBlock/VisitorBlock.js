@@ -13,7 +13,7 @@ class VisitorBlock extends Component {
 
   render() {
     return(
-      <article className="col-xs-12 col-md-10 col-lg-9">
+      <article className="col-xs-12">
         <div className="analytics-block analytics-block--shorter">
           <div className="analytics-block--figure">
             <span id="analytics--sessions-total">{this.state.userValue}</span>

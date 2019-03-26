@@ -42,7 +42,7 @@ class ActivityBlock extends Component {
 
   render() {
     return(
-      <article className="col-xs-12 col-md-10 col-lg-9">
+      <article className="col-xs-12">
         <div className="analytics-block">
         {
           this.state.data !== {} ? 

@@ -14,39 +14,43 @@ const Advice = () => {
     <div className="page-main">
       <div className="container">
         <div className="row">
-          <div className="col-xs-12">
+          <div className="col-xs-12 col-md-9 col-lg-7">
             <h1>Acas beta website performance dashboard</h1>
           </div>
-          <AnalyticsRow>
-            <div className="col-xs-12">
-              <h2>This week's activity</h2>
-            </div>
-            <ActivityBlock />
-          </AnalyticsRow>
+        </div>
+        <div className="row">
+          <div className="col-xs-12 col-lg-9">
+            <AnalyticsRow>
+              <div className="col-xs-12">
+                <h2>This week's activity</h2>
+              </div>
+              <ActivityBlock />
+            </AnalyticsRow>
 
-          <AnalyticsRow>
-            <div className="col-xs-12">
-              <h2>Visitors</h2>
-            </div>
-            <VisitorBlock />
-          </AnalyticsRow>
+            <AnalyticsRow>
+              <div className="col-xs-12">
+                <h2>Visitors</h2>
+              </div>
+              <VisitorBlock />
+            </AnalyticsRow>
 
-          <AnalyticsRow>
-            <div className="col-xs-12">
-              <h2>Can people find what they are looking for?</h2>
-            </div>
-            <FeedbackBlock />
-            <SearchExitBlock />
-            <SearchRefinementBlock />
-          </AnalyticsRow>
+            <AnalyticsRow>
+              <div className="col-xs-12">
+                <h2>Can people find what they are looking for?</h2>
+              </div>
+              <FeedbackBlock />
+              <SearchExitBlock />
+              <SearchRefinementBlock />
+            </AnalyticsRow>
 
-          <AnalyticsRow>
-            <div className="col-xs-12">
-              <h2>Engagement with the site</h2>
-            </div>
-            <EngagementBlock />
-            <NavBounceBlock />
-          </AnalyticsRow>
+            <AnalyticsRow>
+              <div className="col-xs-12">
+                <h2>Engagement with the site</h2>
+              </div>
+              <EngagementBlock />
+              <NavBounceBlock />
+            </AnalyticsRow>
+          </div>
         </div>
       </div>
     </div>
